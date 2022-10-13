@@ -21,8 +21,8 @@ IndexOfMin(array, first, last)
 
 # SelectionSort
 SelectionSort <- function(a, n){
-  last <- n-1
-  for(i in 1:last){
+  
+  for(i in 1:(n-1)){
     # find minimun in range i, n
     sprintf("i: %d", i)
     j <- IndexOfMin(a, i, n)
